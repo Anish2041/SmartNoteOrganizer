@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_screen"
+    android:padding="@dimen/screen_padding">
+
+    <TextView
+        android:id="@+id/tvQuizTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Mode"
+        style="@style/TitleText"
+        android:layout_marginBottom="@dimen/space_large"/>
+
+    <TextView
+        android:id="@+id/tvQuizScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        style="@style/SubtitleText"
+        android:layout_marginBottom="@dimen/space_medium"/>
+
+    <TextView
+        android:id="@+id/tvQuizQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_card"
+        android:padding="@dimen/screen_padding"
+        android:text="Question will appear here"
+        style="@style/TitleText"
+        android:textSize="22sp"
+        android:layout_marginBottom="@dimen/space_medium"/>
+
+    <EditText
+        android:id="@+id/etQuizAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type your answer"
+        style="@style/AppInput"
+        android:layout_marginBottom="@dimen/space_medium"/>
+
+    <Button
+        android:id="@+id/btnSubmitAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Answer"
+        style="@style/AppButtonPrimary"
+        android:layout_marginBottom="@dimen/space_medium"/>
+
+    <TextView
+        android:id="@+id/tvQuizResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        style="@style/SubtitleText"/>
+    <Button
+        android:id="@+id/btnBackToNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Note"
+        style="@style/AppButtonPrimary"
+        android:layout_marginTop="@dimen/space_medium"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/screen_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Note"
+            style="@style/TitleText"
+            android:layout_marginBottom="@dimen/space_large"/>
+
+        <EditText
+            android:id="@+id/etSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subject"
+            style="@style/AppInput"
+            android:layout_marginBottom="@dimen/space_medium"/>
+
+        <EditText
+            android:id="@+id/etContent"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:hint="Write note content"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            style="@style/AppInput"
+            android:layout_marginBottom="@dimen/space_medium"/>
+        <Button
+            android:id="@+id/btnGenerateSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate AI Summary"
+            style="@style/AppButtonPrimary"
+            android:layout_marginBottom="@dimen/space_medium"/>
+        <Button
+            android:id="@+id/btnGenerateFlashcards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Flashcards"
+            style="@style/AppButtonPrimary"
+            android:layout_marginBottom="@dimen/space_medium"/>
+
+        <EditText
+            android:id="@+id/etSummary"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Summary"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            style="@style/AppInput"
+            android:layout_marginBottom="@dimen/space_medium"/>
+        <TextView
+            android:id="@+id/tvFlashcards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Flashcards will appear here"
+            style="@style/SubtitleText"
+            android:layout_marginBottom="@dimen/space_medium"/>
+
+        <Button
+            android:id="@+id/btnSaveNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Note"
+            style="@style/AppButtonPrimary"/>
+    </LinearLayout>
+
+</ScrollView>

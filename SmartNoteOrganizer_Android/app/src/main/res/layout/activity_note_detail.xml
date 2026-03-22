@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/screen_padding">
+
+        <TextView
+            android:id="@+id/tvDetailSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subject"
+            style="@style/TitleText"
+            android:layout_marginBottom="@dimen/space_medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Content"
+            style="@style/SubtitleText" />
+
+        <TextView
+            android:id="@+id/tvDetailContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:padding="@dimen/screen_padding"
+            android:text="Full note content"
+            android:layout_marginTop="@dimen/space_small"
+            android:layout_marginBottom="@dimen/space_medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Summary"
+            style="@style/SubtitleText" />
+
+        <TextView
+            android:id="@+id/tvDetailSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card"
+            android:padding="@dimen/screen_padding"
+            android:text="Summary"
+            android:layout_marginTop="@dimen/space_small"
+            android:layout_marginBottom="@dimen/space_large"/>
+
+        <Button
+            android:id="@+id/btnViewFlashcards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Flashcards"
+            style="@style/AppButtonPrimary"
+            android:layout_marginBottom="@dimen/space_medium"/>
+
+        <Button
+            android:id="@+id/btnStartQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Quiz"
+            style="@style/AppButtonPrimary"/>
+        <Button
+            android:id="@+id/btnEditNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Note"
+            style="@style/AppButtonPrimary"
+            android:layout_marginTop="@dimen/space_medium"/>
+        <Button
+            android:id="@+id/btnDeleteNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Note"
+            style="@style/AppButtonPrimary"
+            android:layout_marginTop="@dimen/space_medium"/>
+
+    </LinearLayout>
+
+</ScrollView>

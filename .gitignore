@@ -1,0 +1,35 @@
+# Java / Spring Boot
+target/
+*.class
+*.log
+*.jar
+*.war
+.mvn/wrapper/maven-wrapper.jar
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Android / Gradle
+.gradle/
+local.properties
+/build
+/app/build
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Android Studio generated
+*.apk
+*.aab
+
+# Keystore
+*.jks
+*.keystore
