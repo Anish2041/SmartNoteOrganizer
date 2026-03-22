@@ -33,13 +33,13 @@ SmartNoteOrganizer
 
 ## Screenshots
 
-![Login](screenshots/Login_Screen.jpeg)
+![Login](screenshots/Login_Screen.png)
 
-![Notes](screenshots/Home_Screen.jpeg)
+![Notes](screenshots/Home_Screen.png)
 
-![NotesView](screenshots/NotesView_Screen.jpeg)
+![NotesView](screenshots/NotesView_Screen.png)
 
-![AddNotes](screenshots/AddNote_Screen.jpeg)
+![AddNotes](screenshots/AddNote_Screen.png)
 
 ![Flashcards](screenshots/FlashCard_Screen.png)
 
