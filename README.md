@@ -1,17 +1,33 @@
 # Smart Note Organizer
 
-Smart Note Organizer is an Android + Spring Boot based application that helps users manage notes with AI-powered summary, flashcards, and quiz features.
+Smart Note Organizer is an Android + Spring Boot based application that helps users manage study notes efficiently.
 
 ## Features
-- User Login & Registration
+- User Registration & Login
 - Add / Edit / Delete Notes
 - Search Notes
-- AI Summary
-- Flashcards Generation
-- Quiz Mode
+- AI Summary Generator
+- Flashcard Generator
+- Quiz Mode with scoring
 
-## Tech Stack
-- Android Studio (Java, XML)
+## Technologies Used
+Frontend:
+- Android Studio
+- Java
+- XML UI
+
+Backend:
 - Spring Boot
-- MySQL
+- REST API
 - JWT Authentication
+
+Database:
+- MySQL / H2
+
+## Project Structure
+
+SmartNoteOrganizer
+- Android Application
+- Spring Boot Backend
+
+
